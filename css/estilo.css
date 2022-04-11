@@ -9,9 +9,11 @@
 #logo {
     width: 15%;
 }
-header{
+
+header {
     background-color: rgba(54, 52, 52, 0.116)
 }
+
 .menu {
     position: absolute;
     top: 10px;
@@ -40,18 +42,35 @@ header{
 
 .lateral {
     position: absolute;
-    top:30%;
+    top: 30%;
     right: 0;
     margin-right: 40px;
     padding-right: 0;
 }
-.redes a{
-    font-size:22px;
+
+.redes a {
+    font-size: 22px;
     text-decoration: none;
 }
-footer{
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(54, 52, 52, 0.116);
     font-size:22px;
-    margin: 12% 0 0 0;
-    padding:1% 0 4% 40%;
-    background-color: rgba(54, 52, 52, 0.116)
+    padding-top: 15px;
 }
+
+/*display:flex, flex-direction:collum, roll é o padrão. 
+Justify-content:space-between; separa itens
+align-items:center;centraliza itens 
+flex-wrap:wrap;
+row-gap
+footer la em baixo colado 
+position:Absolute(fixed caso queira deixar rolar e ele ficar imovel)
+bottom: 0
+Width:100%*/
